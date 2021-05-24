@@ -5,6 +5,7 @@ def sort_using_recursion(array):
     sort_using_recursion(array)
     return insert(array, n)
 
+
 def insert(array, temp):
     if len(array) == 0 or array[len(array) - 1] <= temp:
         array.append(temp)

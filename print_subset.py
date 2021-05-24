@@ -26,9 +26,7 @@ def print_subset(ip, op):
 if __name__ == "__main__":
     string = "abc"
     res = []
-    # print_substring(string, res)
+    print_substring(string, res)
     ip = "abc"
     op = ""
-    # ip = [i for i in ip]
-    # op = []
-    print_subset(ip, op)
+    # print_subset(ip, op)
