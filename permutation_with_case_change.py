@@ -10,6 +10,6 @@ def permutation_with_case_change(ip, op):
 
 
 if __name__ == "__main__":
-    ip = "ab"
+    ip = "abc"
     op = ""
     permutation_with_case_change(ip, op)

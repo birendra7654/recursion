@@ -17,7 +17,7 @@ def generate_balance_parenthesis(open, close, op):
 
 
 if __name__ == "__main__":
-    n = 0
+    n = 3
     open = n
     close = n
     op = ""

@@ -3,7 +3,7 @@
 
 
 def permutation(S, start, n):
-    if start >= n:
+    if start == n:
         print("".join(S))
         return
 

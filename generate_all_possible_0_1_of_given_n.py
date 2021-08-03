@@ -8,7 +8,7 @@ def generate_all_possible_0_1_of_given_n(n, op):
     op1 = op + "1"
     op2 = op + "0"
     generate_all_possible_0_1_of_given_n(n-1, op1)
-    generate_all_possible_0_1_of_given_n(n - 1, op2)
+    generate_all_possible_0_1_of_given_n(n-1, op2)
     return count
 
 if __name__ == "__main__":

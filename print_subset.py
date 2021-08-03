@@ -10,7 +10,7 @@ def print_substring(string, res):
 
 def print_subset(ip, op):
     if len(ip) == 0:
-        print(op, end=",")
+        print(op, end=" ")
         return
 
     op1 = op
@@ -24,9 +24,9 @@ def print_subset(ip, op):
 
 
 if __name__ == "__main__":
-    string = "abc"
+    string = "121"
     res = []
-    print_substring(string, res)
-    ip = "abc"
+    # print_substring(string, res)
+    ip = "121"
     op = ""
-    # print_subset(ip, op)
+    print_subset(ip, op)
